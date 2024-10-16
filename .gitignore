@@ -1,0 +1,45 @@
+# Node modules directory
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Dependency directories
+jspm_packages/
+
+# IDE files
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compiled CSS and JS
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage directories
+coverage/
+
+# Dependency directories
+bower_components/
+
+# Others
+*.log
+*.lock
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+g
