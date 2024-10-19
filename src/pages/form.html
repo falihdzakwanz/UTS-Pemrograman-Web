@@ -30,7 +30,13 @@
           </ul>
         </nav>
         <main class="col-md-9 col-lg-10 p-5">
-          <form action="" method="GET" class="d-flex flex-column gap-4">
+          <form
+            itemscope
+            itemtype="https://schema.org/Person"
+            action=""
+            method="GET"
+            class="d-flex flex-column gap-4"
+          >
             <div class="form-group">
               <label for="name">Nama</label>
               <input
@@ -39,6 +45,7 @@
                 id="name"
                 name="name"
                 required
+                itemprop="name"
               />
             </div>
             <div class="form-group">
@@ -49,6 +56,7 @@
                 id="email"
                 name="email"
                 required
+                itemprop="email"
               />
             </div>
             <div class="form-group">
@@ -59,6 +67,7 @@
                 id="birthdate"
                 name="birthdate"
                 required
+                itemprop="birthDate"
               />
             </div>
             <div class="form-group">
@@ -71,6 +80,7 @@
                   id="male"
                   value="male"
                   required
+                  itemprop="gender"
                 />
                 <label class="form-check-label" for="male">Pria</label>
               </div>
@@ -81,6 +91,7 @@
                   name="gender"
                   id="female"
                   value="female"
+                  itemprop="gender"
                 />
                 <label class="form-check-label" for="female">Wanita</label>
               </div>
@@ -94,6 +105,7 @@
                   id="match"
                   name="interests"
                   value="match"
+                  itemprop="knowsAbout"
                 />
                 <label class="form-check-label" for="match">Pertandingan</label>
               </div>
@@ -104,6 +116,7 @@
                   id="merchandise"
                   name="interests"
                   value="merchandise"
+                  itemprop="knowsAbout"
                 />
                 <label class="form-check-label" for="merchandise"
                   >Merchandise</label
