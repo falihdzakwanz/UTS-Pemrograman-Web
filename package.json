@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "build": "mkdir -p dist && cp -r src/* dist/"
-  },
+"scripts": {
+  "build": "mkdir -p dist && cp -r src/* dist/"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
